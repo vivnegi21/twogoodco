@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.main .line {
+    position: absolute;
+    opacity: 0;
+    scale: 0;
+    height: 1vw;
+    top:14%;
+    left:31.5%;
+    margin: auto;
+    width:37vw;
+    background-color: rgb(216, 4, 198);
+}
+
+.main p {
+    margin: auto;
+    width: fit-content;
+    font-size: 10vw;
+
+}
